@@ -29,9 +29,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:https://github.com/FriendsInGlobalHealth/openmrs-module-htmlformentry.git</connection>
-        <developerConnection>scm:git:https://github.com/FriendsInGlobalHealth/openmrs-module-htmlformentry.git</developerConnection>
-        <url>https://github.com/FriendsInGlobalHealth/openmrs-module-htmlformentry/</url>
+        <connection>scm:git:https://github.com/csaude/openmrs-module-htmlformentry.git</connection>
+        <developerConnection>scm:git:https://github.com/csaude/openmrs-module-htmlformentry.git</developerConnection>
+        <url>https://github.com/csaude/openmrs-module-htmlformentry/</url>
         <tag>HEAD</tag>
     </scm>
 
