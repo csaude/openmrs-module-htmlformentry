@@ -654,6 +654,16 @@ function setupDatePicker(jsDateFormat,yearsrange, jsLocale, displaySelector, val
 			setDatePickerValue(displaySelector, null);
 		}
 	});
+	
+	// NEW: allow only Backspace/Delete to clear the date
+	jq.keydown(function (event) {
+        if (event.key === 'Backspace' || event.key === 'Delete') {
+            event.preventDefault();
+
+            jq.val('');
+            jq.change();
+        }
+    });
 }
 
 function setDatePickerValue(displaySelector, ymd) {
